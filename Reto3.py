@@ -1,15 +1,15 @@
 n = int(input())
-datos = []
+colegios = []
 for i in range(0, n, 1):
-    hdmi, pulgadas, resolucion, frecuencia, valor = input().split()
-    hdmi = int(hdmi)
-    pulgadas = int(pulgadas)
-    resolucion = int(resolucion)
-    frecuencia = int(frecuencia)
-    valor = int(valor)
-    if hdmi >= 3 and pulgadas >= 55 and resolucion >= 1080 and frecuencia >= 60:
-        datos.append(valor)
-for i in datos:
+    fundacion, profesores, recorrido, parques, matricula = input().split()
+    fundacion = int(fundacion)
+    profesores = int(profesores)
+    recorrido = int(recorrido)
+    parques = int(parques)
+    matricula = int(matricula)
+    if fundacion >= 10 and profesores >= 40 and recorrido <= 35 and parques >= 4:
+        colegios.append(matricula)
+for i in colegios:
     print(i)
-if len(datos) == 0:
+if len(colegios) == 0:
     print("NO DISPONIBLE")
