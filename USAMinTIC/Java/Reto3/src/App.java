@@ -1,6 +1,5 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        Reto3 reto = new Reto3();
-        reto.run();
+        System.out.println("Hello, World!");
     }
 }
