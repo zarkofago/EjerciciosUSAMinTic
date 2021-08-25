@@ -1,4 +1,7 @@
 import java.util.Scanner;
+
+import Reto3.Producto;
+
 import java.util.HashMap;
 import java.util.Map;
 
