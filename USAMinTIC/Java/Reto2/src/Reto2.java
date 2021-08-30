@@ -1,7 +1,6 @@
-package Reto2;
-import java.util.Scanner;
 
-import Reto3.Producto;
+
+import java.util.Scanner;
 
 import java.util.HashMap;
 import java.util.Map;
