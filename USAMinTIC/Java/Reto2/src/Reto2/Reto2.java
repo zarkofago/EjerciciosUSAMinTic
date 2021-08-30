@@ -1,3 +1,4 @@
+package Reto2;
 import java.util.Scanner;
 
 import Reto3.Producto;
